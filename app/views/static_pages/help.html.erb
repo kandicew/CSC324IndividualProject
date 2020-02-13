@@ -1,24 +1,26 @@
+<% provide(:title, "Help") %>
 <!DOCTYPE html>
 <html>
 <head>
+    <title><%= full_title(yield(:title)) %></title>
 </head>
 <body>
 
     <h1>This is Help Page</h1>
     <p>This page can help you navigate through the website</p>
 
-<nav>
-    <ul>
-        <li>
-            <a href="/static_pages/home">Home</a>
-        </li>
-        <li>
-            <a href="/static_pages/about">About</a>
-        </li>
-        <li>
-            <a href="/">Back</a>
-        </li>
-    </ul>
+    <nav>
+        <ul>
+            <li>
+                <a href="/static_pages/home">Home</a>
+            </li>
+            <li>
+                <a href="/static_pages/about">About</a>
+            </li>
+            <li>
+                <a href="/">Back</a>
+            </li>
+        </ul>
     </nav>
 </body>
 </html>

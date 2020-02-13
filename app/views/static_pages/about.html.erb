@@ -1,24 +1,26 @@
+<% provide(:title, "About") %>
 <!DOCTYPE html>
 <html>
 <head>
+    <title><%= full_title(yield(:title)) %></title>
 </head>
 <body>
 
     <h1>This is About Page</h1>
     <p>Here are some information about this page to be implemented soon...</p>
 
-<nav>
-    <ul>
-        <li>
-            <a href="/static_pages/home">Home</a>
-        </li>
-        <li>
-            <a href="/static_pages/help">Help</a>
-        </li>
-        <li>
-            <a href="/">Back</a>
-        </li>
-    </ul>
+    <nav>
+        <ul>
+            <li>
+                <a href="/static_pages/home">Home</a>
+            </li>
+            <li>
+                <a href="/static_pages/help">Help</a>
+            </li>
+            <li>
+                <a href="/">Back</a>
+            </li>
+        </ul>
     </nav>
 </body>
 </html>
