@@ -1,4 +1,4 @@
-<% provide(:title, "Home") %>
+<% provide(:title, "Roll") %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,25 +6,26 @@
 </head>
 <body>
 
-    <h1>This is Home Page</h1>
-    <p>Go you any other pages from here...</p>
-
     <nav>
         <ul>
             <li>
-                <a href="/static_pages/help">Help</a>
+                <a href="/static_pages/home">Roll</a>
             </li>
+
             <li>
                 <a href="/static_pages/about">About</a>
             </li>
             <li>
-                <a href="/">Back</a>
+                <a href="/static_pages/help">Help</a>
+            </li>
+            <li>
+                <a href="/">Home</a>
             </li>
         </ul>
     </nav>
 
-    <h2>Dice Result</h2>
+    <h1>Dice Result</h1>
     <p><%= @result %></p>
-   
+    <a href="/static_pages/home">ROLL</a>
 </body>
 </html>
