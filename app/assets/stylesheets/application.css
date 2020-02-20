@@ -61,8 +61,8 @@ a {
         border-color: #000 #CCC #CCC #000;
     }
 
-.button {
-    background-color: #4CAF50; /* Green */
+button {
+    background-color: #F08080;
     border: none;
     color: white;
     padding: 15px 32px;
