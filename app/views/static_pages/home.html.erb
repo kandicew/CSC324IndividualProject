@@ -1,15 +1,15 @@
-<% provide(:title, "Roll") %>
+<% provide(:title, "Gift") %>
 <!DOCTYPE html>
 <html>
 <head>
     <title><%= full_title(yield(:title)) %></title>
 </head>
 <body>
-    <h1>Roll a dice</h1>
+    <h1>Hi... Here is a little gift...</h1>
     <nav>
         <ul>
             <li>
-                <a href="/static_pages/home">Roll</a>
+                <a href="/static_pages/home">Gift</a>
             </li>
 
             <li>
@@ -24,10 +24,10 @@
         </ul>
     </nav>
 
-    <h1>Result</h1>
+    <h1>For you</h1>
     <p><%= @result %></p>
     <form>
-        <button formaction="/static_pages/home">Roll</button>
+        <button formaction="/static_pages/home">Change</button>
     </form>
 </body>
 </html>
