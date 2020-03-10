@@ -20,5 +20,6 @@ end
   end
 
  def about
+  @datasets = Dataset.all
   end
 end

@@ -24,5 +24,13 @@
     </nav>
     <p>There are one homepage and three static pages in this web.</p>
     <p>Roll contains the dice result.</p>
+
+    <ul class="datasets">
+        <% @datasets.each do |dataset| %>
+        <li>
+            <%= dataset.name %>, <%= dataset.add %>
+        </li>
+        <% end %>
+    </ul>
 </body>
 </html>
