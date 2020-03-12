@@ -7,5 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #5.times do |i|
-  Dataset.create(name: "🍄", add: "data")
+ Dataset.create(name: "🌸", add: "Spring is here")
+ Dataset.create(name: "💐", add: "You are strong")
+ Dataset.create(name: "🌷", add: "There are ones who care about you")
+ Dataset.create(name: "🌻", add: "Thanks for bringing happiness")
+ Dataset.create(name: "🌹", add: "Courage, respect and love")
+ Dataset.create(name: "🌺", add: "Good luck is coming")
 #end

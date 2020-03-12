@@ -23,14 +23,26 @@
         </ul>
     </nav>
     <p>You might want to know what your gift means</p>
-    <p>Every flower says...</p>
+    <p>Every flower says... <br></p>
 
-    <ul class="datasets">
-        <% @datasets.each do |dataset| %>
-        <li>
-            <%= dataset.name %>, <%= dataset.add %>
-        </li>
-        <% end %>
-    </ul>
+    <p style="text-align:center">
+            <%= @cherry.name %>
+            <%= @cherry.add %> <br>
+        
+            <%= @daisy.name %>
+            <%= @daisy.add %> <br>
+        
+            <%= @tulip.name %> 
+            <%= @tulip.add %> <br>
+        
+            <%= @sun.name %>
+            <%= @sun.add %> <br>
+        
+            <%= @rose.name %>
+            <%= @rose.add %> <br>
+      
+            <%= @peach.name %> 
+            <%= @peach.add %> <br>
+       </p>
 </body>
 </html>

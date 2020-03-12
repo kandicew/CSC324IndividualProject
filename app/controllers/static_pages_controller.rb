@@ -20,6 +20,11 @@ end
   end
 
  def about
-  @datasets = Dataset.all
+  @cherry = Dataset.find(12)
+@daisy = Dataset.find(13)
+@tulip = Dataset.find(14)
+@sun = Dataset.find(15)
+@rose = Dataset.find(16)
+@peach = Dataset.find(17)
   end
 end
