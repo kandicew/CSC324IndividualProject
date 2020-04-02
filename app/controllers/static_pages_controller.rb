@@ -27,5 +27,7 @@ end
      @sun = Dataset.find(15)
      @rose = Dataset.find(16)
      @peach = Dataset.find(17)
+     
+     @new = Dataset.last
   end
 end
