@@ -11,7 +11,7 @@ assert_select "title", "Gift | App"
   test "should get help" do
     get static_pages_help_url
     assert_response :success
-assert_select "title", "Help | App"
+assert_select "title", "New | App"
   end
 
 test "should get about" do
