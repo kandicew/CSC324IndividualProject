@@ -6,23 +6,7 @@
 </head>
 <body>
     <h1>Hi... Here is a little gift...</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="/static_pages/home">Gift</a>
-            </li>
-
-            <li>
-                <a href="/static_pages/about">About</a>
-            </li>
-            <li>
-                <a href="/static_pages/help">New</a>
-            </li>
-            <li>
-                <a href="/">Home</a>
-            </li>
-        </ul>
-    </nav>
+    <%= render "navbar" %>
 
     <h1>For you</h1>
     <p><%= @result %></p>
