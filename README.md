@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How this site showcases skill developmen with Ruby on Rails?
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a website that is developed with Ruby on Rails and it works both locally and remotely. 
+There are one home page and three static pages with consistent headers using HTML, formatting with CSS. 
+Some pages have use of assets.
+Each page contains some dynamic features coded with Ruby, and the functions are tested. 
+There is also a database in use to manage data as well as a form that takes in new data entries. 
