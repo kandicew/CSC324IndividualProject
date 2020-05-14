@@ -1,20 +1,30 @@
 class StaticPagesController < ApplicationController
   def home
 num = (1..6).to_a.shuffle.first
+time = (1..3).to_a.shuffle.first
+counter = 0
 if num == 1
-@result = "🌸🌸🌸🌸🌸🌸🌸🌸🌸"
+flowers = "🌸"
 elsif num == 2
-@result = "💐💐💐💐"
+flowers = "💐"
+flower = "💐"
 elsif num == 3
-@result = "🌷🌷🌷🌷🌷🌷🌷"
+flowers = "🌷"
+flower = "🌷"
 elsif num == 4
-@result = "🌻🌻🌻🌻🌻"
+flowers = "🌻"
+flower =  "🌻"
 elsif num == 5
-@result = "🌹"
+flowers = "🌹"
+flower =  "🌹"
 else
-@result = "🌺🌺🌺🌺🌺🌺🌺🌺🌺"
+flowers = "🌺"
+flower = "🌺"
 end
-  end
+
+
+@result = flowers
+end
 
   def help
       @dataset = Dataset.new
